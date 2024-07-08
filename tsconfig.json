@@ -1,12 +1,11 @@
 {
     "compilerOptions": {
-        "target": "es2022",
-        "lib": ["es2022"],
+        "target": "ES2022",
+        "lib": ["ES2022"],
         "module": "commonjs",
-        "rootDir": "src",
+        "rootDir": "./src/",
         "resolveJsonModule": true,
-        "allowJs": true,
-        "outDir": "build",
+        "outDir": "./build/",
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "strict": true,
