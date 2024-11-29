@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "nodemon src/main.ts",
-    "prebuild": "rimraf build/",
+    "prebuild": "rimraf dist/",
     "build": "tsc",
-    "preview": "node build/main.js"
+    "preview": "node dist/main.js"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",
